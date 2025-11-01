@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "roboto", sans-serif;
+}
+header{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+    background-color: #003f92;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer{
+    background-color: #003f92;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#Comming-soon{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 36px;
+    color: #003f92;
+}
