@@ -3,6 +3,9 @@
     margin: 0;
     font-family: "roboto", sans-serif;
 }
+body{
+    background-color: #242424;
+}
 header{
     
     display: flex;
@@ -10,23 +13,29 @@ header{
     align-items: center;
     gap: 10px;
 
-    background-color: #003f92;
-    color: white;
+    background-color: #0a0a0a;
+    color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
 }
 footer{
-    background-color: #003f92;
-    color: white;
+    background-color: #0a0a0a;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
-#Comming-soon{
+#comming-soon{
     margin-top: 200px;
     text-align: center;
     font-size: 36px;
-    color: #003f92;
+    color: rgb(255, 255, 255);
+}
+#welcome{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
+    color: #ffffff;
 }
